@@ -3,9 +3,10 @@
 
 const TILES = [
   { name: "MTG Tracker", href: "https://mtg.mazzen.dev", desc: "Metashare tracker for the LGS." },
-  { name: "Crane", href: "https://crane.mazzen.dev", desc: "Fold-your-own origami crane guide.", tag: "Not working well" },
   { name: "RPS", href: "https://rps.mazzen.dev", desc: "Rock, paper, scissors." },
-  { name: "Show Tracker", href: "https://show.mazzen.dev", desc: "Track what you're watching." },
+  { name: "Show Tracker", href: "https://show.mazzen.dev", desc: "Tracker for whose turn it is to pick the show." },
+  { name: "Dish", href: "https://dish.mazzen.dev", desc: "Whose turn it is to empty the dishwasher." },
+  { name: "Crane", href: "https://crane.mazzen.dev", desc: "Make your own custom crane.", tag: "Not working well" },
 ];
 
 function page() {
