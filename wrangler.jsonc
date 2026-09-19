@@ -3,5 +3,8 @@
   "name": "mazzen-hub",
   "main": "src/worker.js",
   "compatibility_date": "2026-09-01",
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "mazzen-hub-db", "database_id": "23e3e3d5-2d3e-450a-bac2-a259f782f59a" }
+  ]
 }
